@@ -47,7 +47,7 @@ Public Sub _new(nuevaX As Short, nuevaY As Short, colorSerpiente As Integer, nue
       
 End
 
-'Moverse
+'Esto hace que la serpiente se mueva 
 Public Sub moverse()
   'crezco
   Me.crecer()

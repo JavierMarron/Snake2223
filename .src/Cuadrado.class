@@ -67,7 +67,8 @@ End
 Public Sub pintarse(tablero As DrawingArea)
   
     Dim colorLoteria As Integer
-    
+        
+        'Los cuadrados de la serpienete tienen un color aleatorio
     colorLoteria = Color.RGB(Rand(200, 255), Rand(0, 50), Rand(0, 255))
   
     Paint.Begin(tablero)

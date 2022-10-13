@@ -58,6 +58,5 @@ End
 Public Sub Form_KeyPress()
 
     DrawingArea1_KeyPress()
-  
 
 End
